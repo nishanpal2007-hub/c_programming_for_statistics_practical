@@ -10,7 +10,7 @@ int main()
 
     printf("Enter the value of x and y:\n");
 
-    for (i = 0; i < n; i++)
+    for (i = 0; i <= n; i++)
     {
         scanf("%f %f", &x[i], &y[i]);
     }
@@ -18,11 +18,11 @@ int main()
     printf("Enter the value of x for which the value of y is needed: ");
     scanf("%f", &a);
 
-    for (i = 0; i < n; i++)
+    for (i = 0; i <= n; i++)
     {
         p = 1;
 
-        for (j = 0; j < n; j++)
+        for (j = 0; j <= n; j++)
         {
             if (i != j)
             {
