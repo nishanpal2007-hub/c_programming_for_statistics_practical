@@ -1,2 +1,2 @@
-# lagrange-interpolation
-Lagrange Interpolation C code for Statistics Practical
+# C Programming
+C code for Statistics Practical
